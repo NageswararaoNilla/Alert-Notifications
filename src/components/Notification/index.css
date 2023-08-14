@@ -1,1 +1,9 @@
-/* Write your CSS here */
+.alert-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+  margin: 10px;
+}

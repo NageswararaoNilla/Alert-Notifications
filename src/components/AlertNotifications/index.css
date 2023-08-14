@@ -1,1 +1,41 @@
-/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  min-height: 100vh;
+}
+
+.message-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon-container {
+  align-self: flex-start;
+  padding-top: 22px;
+}
+
+.green {
+  color: #2dca73;
+  font-size: 24px;
+}
+
+.red {
+  color: #ff0b37;
+  font-size: 24px;
+}
+
+.yellow {
+  color: #ffb800;
+  font-size: 24px;
+}
+
+.blue {
+  color: #0f81e0;
+  font-size: 24px;
+}
+
+.success-icon {
+  margin-right: 20px;
+}
